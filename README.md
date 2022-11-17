@@ -20,7 +20,7 @@ services:
       traefik.enable: 'true'
     environment:
       PGADMIN_DEFAULT_EMAIL: mfalconsoft@gmail.com
-      PGADMIN_DEFAULT_PASSWORD: 123
+      PGADMIN_DEFAULT_PASSWORD: demopass
       PGADMIN_LISTEN_PORT: '80'
     ports:
      - 5050:80
@@ -52,4 +52,5 @@ networks:
 volumes:
   app-postgres:
     driver: local
+
  ```
